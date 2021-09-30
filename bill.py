@@ -1,4 +1,3 @@
-#Font: Courier New, Size: 16
 import pandas as pd
 import matplotlib.pyplot as plt
 df_main = pd.read_csv("E:\\New folder(3)\\database.csv",index_col='id')
