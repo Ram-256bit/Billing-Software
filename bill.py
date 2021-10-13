@@ -1,5 +1,6 @@
 import pandas as pd
-df_main = pd.read_csv("E:\\New folder(3)\\database.csv",index_col='id')
+import os
+df_main = pd.read_csv(os.getcwd()+'\\database.csv',index_col='id')
 
 #Loop the whole program using while loop
 x = 'y'
