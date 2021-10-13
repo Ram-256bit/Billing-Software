@@ -1,6 +1,7 @@
-id,name,price
-1,Pencil,10
-2,Eraser,3
-3,Stapler,20
-4,Black Stick,10
-5,Blue Gel,12
+id,Name,Price,GST %
+1,Pencil,10,10
+2,Eraser,3,5
+3,Stapler,20,12
+4,Black Stick,10,10
+5,Blue Gel,12,10
+6,Water Bottle,50,12.4
