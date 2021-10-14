@@ -53,8 +53,13 @@ while x == '':
     print('Total cost:\t\t\t\t ₹',total_cost,sep='')
     print('-----------------------------------------------')
     #Printing Balance amount
+
     amount = int(input('\nEnter the amount received: ₹ '))
-    print('Balance to be given:       ₹',amount-total_cost)
+
+    while (amount-total_cost) < 0:
+        amount = int(input('Amount recieved not sufficient enter a greater amount: ₹ ')) 
+
+    print('\nBalance to be given:       ₹',amount-total_cost)
 
     #Rerun the program?
     print('\n\n\n')
